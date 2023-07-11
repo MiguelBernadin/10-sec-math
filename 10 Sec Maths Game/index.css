@@ -1,0 +1,82 @@
+/*index.css*/
+h2 {
+  color: blue;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(167, 129, 129, 0.8), rgba(255, 255, 255, 0.8)), url(Article-Page-3-2.png) center no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ea7575;
+  border-radius: 10px;
+  box-shadow: 7px 5px 9px;
+}
+
+.timer h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.timer p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.inpt {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  background: #fff;
+}
+
+.inpt h1 {
+  color: #ea7575;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  background: #fcb0b0;
+  border-radius: 10px;
+}
